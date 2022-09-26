@@ -13,7 +13,7 @@ function App() {
 
     return (
         <main className={'grid place-content-center gap-2  overflow-hidden '}>
-            <h1 className={'text-center text-6xl text-red-300 text-transparent'}>Drag !!!</h1>
+            <h1 className={'text-center text-6xl text-red-300 '}>Drag !!!</h1>
 
             <div className={'border mt-4  relative border-red-400 h-[500px] w-[800px] overflow-hidden'}>
                 <div ref={dragRef} className={'w-[100px] absolute'}>
